@@ -11,5 +11,10 @@ export const GlobalStyles = createGlobalStyle`
         background-color: ${brandColorBackground};
         color: ${brandColorText};
         font-size: 16px;
+        box-sizing: border-box;
+        width: 100vw;
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
     }
 `;
