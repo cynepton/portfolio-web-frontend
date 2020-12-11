@@ -1,11 +1,18 @@
 import styled from 'styled-components/macro';
+import {
+    brandColorPrimary,
+    brandColorText
+} from './../../../constants/styleConstants';
 
 export const Background = styled.header`
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 16px 50px 16px 32px;
-    height: 55px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
 `;
 
 export const Logo = styled.img`
@@ -22,13 +29,23 @@ export const Navigation = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100px;
     height: 100%;
 `;
 
-export const NavItem = styled.div``;
+export const NavItem = styled.a`
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 20px 20px 5px 20px;
+    text-decoration: none;
+    color: ${brandColorText};
+
+    &:hover {
+        color: ${brandColorPrimary};
+    }
+`;
 
 export const Spacer = styled.div`
-    width: 100%;
-    height: 100%;
+    flex-basis: 100%;
+    height: 40px;
 `;
