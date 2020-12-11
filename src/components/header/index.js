@@ -36,6 +36,8 @@ Header.Navigation = function HeaderNavigation({children, ...restProps}) {
 
 Header.NavItem = function HeaderNavItem({children, ...restProps}) {
     return(
-        <NavItem {...restProps}>{children}</NavItem>
+        <NavItem {...restProps}>
+            <div>{children}</div>
+        </NavItem>
     )
 }
