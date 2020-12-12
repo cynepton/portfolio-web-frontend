@@ -59,7 +59,7 @@ export const NavItem = styled.a`
 
     &:hover {
         color: ${brandColorPrimary};
-        font-size: 20px;
+        font-size: 24px;
     }
 
     @media (max-width: 800px) {
@@ -83,6 +83,9 @@ export const Hamburger = styled.div`
 
 export const Bottom = styled.div`
     display: none;
+    height: 100vh;
+    background-color: ${brandColorBackground};
+    opacity: 0.95;
 
     @media (max-width: 800px) {
         display: flex;
@@ -91,12 +94,13 @@ export const Bottom = styled.div`
 `;
 
 export const Menu = styled.a`
-    background-color: ${brandColorText};
+    opacity: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: ${brandColorBackground};
+    color: ${brandColorText};
     padding: 10px 0px;
     font-weight: 700;
+    padding: 4vh 0;
 `;
