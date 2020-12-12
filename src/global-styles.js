@@ -13,8 +13,14 @@ export const GlobalStyles = createGlobalStyle`
         font-size: 16px;
         box-sizing: border-box;
         width: 100vw;
+        margin: 0;
+        padding: 0;
         *, *:before, *:after {
             box-sizing: inherit;
         }
+    }
+    #root {
+        display: flex;
+        flex-direction: column;
     }
 `;
