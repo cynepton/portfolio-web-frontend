@@ -1,10 +1,11 @@
 import React from 'react';
-import { HeaderContainer } from '../containers';
+import { HeaderContainer, JumbotronContainer } from '../containers';
 
 export default function LandingPage() {
     return(
         <>
             <HeaderContainer />
+            <JumbotronContainer />
         </>
     );
 }
