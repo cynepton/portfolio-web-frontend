@@ -1,18 +1,30 @@
 import styled from 'styled-components/macro';
 import {
     brandColorPrimary,
-    brandColorText
+    brandColorText,
+    brandColorBackground,
 } from './../../../constants/styleConstants';
 
 export const Background = styled.header`
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+`;
+
+export const Top = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 16px 50px 16px 32px;
     height: 80px;
     width: 100%;
-    position: fixed;
     overflow: hidden;
+
+    @media (max-width: 800px) {
+        padding: 10px 15px 5px 15px;
+        height: 9vh;
+    }
 `;
 
 export const Logo = styled.img`
@@ -22,6 +34,10 @@ export const Logo = styled.img`
     &:hover {
         height: 50px;
         content: url('/assets/icons/logo-gradient.svg');
+    }
+
+    @media (max-width: 800px) {
+        height: 6vh;
     }
 `;
 
@@ -39,13 +55,48 @@ export const NavItem = styled.a`
     padding: 20px 20px 5px 20px;
     text-decoration: none;
     color: ${brandColorText};
+    transition: all 0.1s ease-out;
 
     &:hover {
         color: ${brandColorPrimary};
+        font-size: 20px;
+    }
+
+    @media (max-width: 800px) {
+        display: none;
     }
 `;
 
 export const Spacer = styled.div`
-    flex-basis: 100%;
-    height: 40px;
+    width: 100%;
+`;
+
+export const Hamburger = styled.div`
+    display: none;
+    height: 36px;
+
+    @media (max-width: 800px) {
+        display: flex;
+        height: 36px;
+    }
+`;
+
+export const Bottom = styled.div`
+    display: none;
+
+    @media (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+    }
+`;
+
+export const Menu = styled.a`
+    background-color: ${brandColorText};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: ${brandColorBackground};
+    padding: 10px 0px;
+    font-weight: 700;
 `;
