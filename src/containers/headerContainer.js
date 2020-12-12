@@ -1,8 +1,8 @@
 import React from 'react';
-import { Header } from '../../components';
-import * as ROUTES from '../../constants/routes';
-import logo from '../../logo-white.svg';
-import navItems from '../../fixtures/navSections.json';
+import { Header } from '../components';
+import * as ROUTES from '../constants/routes';
+import logo from '../logo-white.svg';
+import navItems from '../fixtures/navSections.json';
 
 export default function HeaderContainer() {
     return(
