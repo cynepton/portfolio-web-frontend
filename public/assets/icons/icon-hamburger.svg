@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 50.002 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="50.002" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="menu-icon" class="cls-2">
+    <path id="Menu" class="cls-3" d="M0,48V41.141H31.253V48ZM0,27.429V20.571H50v6.859ZM0,6.859V0H50V6.859Z" transform="translate(0 1)"/>
+    <rect id="Rectangle_1446" data-name="Rectangle 1446" class="cls-1" width="50" height="50" transform="translate(0)"/>
+  </g>
+</svg>
