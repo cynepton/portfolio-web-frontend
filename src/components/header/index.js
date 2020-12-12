@@ -72,7 +72,7 @@ Header.Hamburger = function HeaderHamburger({...restProps}) {
             {toggleShowMenu ? (
                 <img src="/assets/icons/icon-closeMenu.svg" alt="Close" />
             ) : (
-                <img src="/assets/icons/icon-Hamburger.svg" alt="Open" />
+                <img src="/assets/icons/icon-hamburger.svg" alt="Open" />
             )}
         </Hamburger>
     )
