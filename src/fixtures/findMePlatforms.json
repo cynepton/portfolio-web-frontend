@@ -1,0 +1,32 @@
+[
+    {
+        "id": "findBehance",
+        "name": "Behance",
+        "link": "https://www.findisaac.com",
+        "iconPath": "/assets/icons/behance-50.svg"
+    },
+    {
+        "id": "findDribbble",
+        "name": "Dribbble",
+        "link": "https://www.findisaac.com",
+        "iconPath": "/assets/icons/dribbble-50.svg"
+    },
+    {
+        "id": "findLinkedin",
+        "name": "Linkedin",
+        "link": "https://www.findisaac.com",
+        "iconPath": "/assets/icons/linkedin-50.svg"
+    },
+    {
+        "id": "findTwitter",
+        "name": "Twitter",
+        "link": "https://www.findisaac.com",
+        "iconPath": "/assets/icons/twitter-50.svg"
+    },
+    {
+        "id": "findGithub",
+        "name": "Github",
+        "link": "https://github.com/cynepton",
+        "iconPath": "/assets/icons/github-50.svg"
+    }
+]
