@@ -28,10 +28,6 @@ export const Name = styled.h1`
     color: ${brandColorPrimary};
     transition: all 0.1s ease-out;
 
-    &:hover {
-        font-size: 125px
-    }
-
     @media (max-width:800px) {
         font-size: 3.5em;
         line-height: 0.85em;
@@ -49,7 +45,7 @@ export const IntroText = styled.p`
 
     @media (min-width:801px) {
         font-size: 30px;
-        line-height: 20px;
+        line-height: 35px;
         text-align: left;
         justify-content: start;
         padding-left: 5px;

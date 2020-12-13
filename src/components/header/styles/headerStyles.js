@@ -101,6 +101,7 @@ export const Menu = styled.a`
     text-decoration: none;
     color: ${brandColorText};
     padding: 10px 0px;
+    font-size: 3vh;
     font-weight: 700;
     padding: 4vh 0;
 `;
