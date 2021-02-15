@@ -1,32 +1,38 @@
 [
     {
-        "id": "findBehance",
-        "name": "Behance",
-        "link": "https://www.findisaac.com",
-        "iconPath": "/assets/icons/behance-50.svg"
+        "id": "findGithub",
+        "name": "Github",
+        "link": "https://github.com/cynepton",
+        "iconPath": "/assets/icons/GithubLogo_white.svg"
     },
     {
         "id": "findDribbble",
         "name": "Dribbble",
-        "link": "https://www.findisaac.com",
-        "iconPath": "/assets/icons/dribbble-50.svg"
+        "link": "https://dribbble.com/cynepton",
+        "iconPath": "/assets/icons/DribbbleLogo_white.svg"
     },
     {
         "id": "findLinkedin",
         "name": "Linkedin",
-        "link": "https://www.findisaac.com",
-        "iconPath": "/assets/icons/linkedin-50.svg"
+        "link": "https://linkedin.com/in/isaac-aderonmu",
+        "iconPath": "/assets/icons/LinkedinLogo_white.svg"
     },
     {
         "id": "findTwitter",
         "name": "Twitter",
-        "link": "https://www.findisaac.com",
-        "iconPath": "/assets/icons/twitter-50.svg"
+        "link": "https://twitter.com/cynepton",
+        "iconPath": "/assets/icons/TwitterLogo_white.svg"
     },
     {
-        "id": "findGithub",
-        "name": "Github",
-        "link": "https://github.com/cynepton",
-        "iconPath": "/assets/icons/github-50.svg"
+        "id": "findStackOverflow",
+        "name": "StackOverflow",
+        "link": "https://stackoverflow.com/users/13247599/isaac-aderonmu",
+        "iconPath": "/assets/icons/StackOverflowLogo_white.svg"
+    },
+    {
+        "id": "findDev",
+        "name": "Isaac Adedoyin's DEV Community Profile",
+        "link": "https://dev.to/cynepton",
+        "iconPath": "/assets/icons/DevLogo_white.svg"
     }
 ]
