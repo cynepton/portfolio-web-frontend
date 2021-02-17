@@ -1,1 +1,4 @@
-export const HOME = "/";
+export const HOME = {
+    pageID: "landingPage",
+    path: "/"
+};
