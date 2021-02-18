@@ -1,22 +1,22 @@
 [
     {
-        "id": "aboutSection",
+        "id": "aboutMe",
         "name": "About me"
     },
     {
-        "id": "howIWorkSection",
-        "name": "How I work"
-    },
-    {
-        "id": "portfolioSection",
+        "id": "portfolio",
         "name": "Portfolio"
     },
     {
-        "id": "contactSection",
+        "id": "howIWork",
+        "name": "How I Work"
+    },
+    {
+        "id": "contactMe",
         "name": "Contact me"
     },
     {
-        "id": "hireSection",
+        "id": "hireMe",
         "name": "Hire me"
     }
 ]
