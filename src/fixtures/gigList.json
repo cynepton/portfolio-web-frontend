@@ -1,0 +1,26 @@
+[
+    {
+        "itemKey": "00",
+        "itemName": "frontend_development"
+    },
+    {
+        "itemKey": "01",
+        "itemName": "backend_development"
+    },
+    {
+        "itemKey": "02",
+        "itemName": "web_design"
+    },
+    {
+        "itemKey": "03",
+        "itemName": "robotics_software"
+    },
+    {
+        "itemKey": "04",
+        "itemName": "devops"
+    },
+    {
+        "itemKey": "05",
+        "itemName": "ui/ux_development"
+    }
+]
