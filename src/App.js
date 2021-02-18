@@ -8,7 +8,7 @@ import {
 export default function App() {
     return (
         <Router>
-            <Route exact path={ROUTES.HOME} component={LandingPage} />
+            <Route exact path={ROUTES.HOME.path} component={LandingPage} />
         </Router>
     );
 }
