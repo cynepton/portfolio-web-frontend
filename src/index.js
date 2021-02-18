@@ -2,10 +2,18 @@ import React from 'react';
 import { render } from 'react-dom';
 import 'normalize.css';
 import App from './App';
+import { GlobalStyles } from './GlobalStyles';
 // import reportWebVitals from './reportWebVitals';
+
+// const width  = window.innerWidth || document.documentElement.clientWidth || 
+// document.body.clientWidth;
+// const height = window.innerHeight|| document.documentElement.clientHeight|| 
+// document.body.clientHeight;
+// console.log(width, height);
 
 render(
     <React.StrictMode>
+        <GlobalStyles />
         <App />
     </React.StrictMode>,
     document.getElementById('root')
